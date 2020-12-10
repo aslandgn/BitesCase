@@ -5,4 +5,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Abstract\**" />
+    <Compile Remove="Concrate\**" />
+    <Compile Remove="dogancan_aslan\**" />
+    <EmbeddedResource Remove="Abstract\**" />
+    <EmbeddedResource Remove="Concrate\**" />
+    <EmbeddedResource Remove="dogancan_aslan\**" />
+    <None Remove="Abstract\**" />
+    <None Remove="Concrate\**" />
+    <None Remove="dogancan_aslan\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
 </Project>
